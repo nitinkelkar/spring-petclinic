@@ -1,0 +1,5 @@
+version: 0.0
+os: windows
+files:
+  - source: \spring-petclinic-master
+    destination: C:\PetClinic

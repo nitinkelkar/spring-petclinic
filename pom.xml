@@ -21,6 +21,10 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+    
+		<sonar.host.url>http://localhost:9000/<sonar.exclusions>
+	
+          
     <!-- Web dependencies -->
     <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
     <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
@@ -32,6 +36,12 @@
     <cobertura.version>2.7</cobertura.version>
 
   </properties>
+            
+       <modules>
+		<module>parent</module>
+		<module>xmlapi</module>
+		<module>common</module>
+       </modules>
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
